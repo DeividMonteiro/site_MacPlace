@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+form button {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    padding: 24px 0;
+    background-color: rgb(90, 90, 90);
+}
+
+header h1 {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+header nav li a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: o auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container img {
+    height: 512px;
+}
+
+.logo img {
+    margin-top: -36px;
+    margin-right: 32px;
+}
+
+.contatos img {
+    height: 300px;
+    margin-top: -14px;
+}
+
+.contatos li {
+    display: inline;
+    margin: 0;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 32px 0;
+    margin-top: 16px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: rgb(255, 85, 23);
+}
+
+section {
+    color: rgb(100, 100, 100);
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-top:  8px;
+}
+
+#Orçamento .container {
+    display: flex;
+}
+
+li {
+    margin-left: 228px;
+    display: inline-flex;
+}
+
+.Orçamento {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-right: 16px;
+}
+
+form input,
+form textarea,
+form button {
+    font-size: 18px;
+    display: block;
+    width: 420px;
+    margin-bottom: 32px;
+    padding: 8px 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+    color: rgb(90, 90, 90);
+}
+
+form input {
+    color: rgb(90, 90, 90);
+}
+
+section h2 {
+    margin-bottom: 24px;
+}
+
+form button {
+    background-color: rgb(255, 85, 23);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(90, 90, 90);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(90, 90, 90);
+}
+
+footer {
+    background-color: rgb(90, 90, 90);
+    color: #fff;
+    padding: 16px 0;
+}
+
+footer p {
+    margin-left: 683px;
+}
